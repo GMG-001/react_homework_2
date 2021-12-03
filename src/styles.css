@@ -1,0 +1,30 @@
+body{
+  background: darkgray;
+}
+.plus{
+  height: 50px;
+  width: 200px;
+  border: none;
+  background: green;
+  color: white;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 24px;
+}
+.min{
+  color: white;
+  background: red;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+}
+.App{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+}
